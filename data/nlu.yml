@@ -1,0 +1,126 @@
+version: "3.1"
+nlu:
+- intent: greet
+  examples: |
+    - Hi
+    - hey
+    - hello
+    - hi
+    - Hi, How can you help me to customize the bra?
+    - hello there
+    - good morning
+    - good evening
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - hi there
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - /affirm
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+- intent: stop
+  examples: |
+    - stop
+    - nevermind
+    - please stop
+    - i want to stop
+    - stop the form
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+- intent: customize_bra
+  examples: |
+    - I want a bra for [yoga](sport_name)
+    - I want a sports bra for [Gym](sport_name)
+    - I want a product to do [Jogging](sport_name)
+    - I am doing [Zumba](sport_name)
+    - I am doing [Zumba](sport_name). Please help me to find a good bra
+    - Need a bra item to do [Aerobic](sport_name)
+    - I need a [Work out At Home](sport_name) bra
+    - I am searching a bra for [yoga](sport_name)
+    - please help me to select a bra. I do't have any idea.
+    - please help me to select a bra for [yoga](sport_name).
+    - i need a bra for [Yoga](sport_name)
+    - I need to select a bra for customize
+    - i want a bra
+    - i am doing [yoga](sport_name)
+    - [yoga](sport_name)
+    - i want a bra to do [Zumba](sport_name)
+    - i am doing [zumba](sport_name)
+    - i am doing [Yoga](sport_name)
+    - i am doing [yoga](sport_name)
+- intent: inform
+  examples: |
+    - I selected [2XU_Aero_Medium_Impact_Bra_Cranberry](bra_name) for [jogging](sport_name)
+    - [Abi_and_Joseph_Success_High_Support_Crop_Stellar](bra_name) selected for [yoga](sport_name)
+    - Selelcted bra is [2XU_Aero_Medium_Impact_Bra_Cranberry](bra_name) for [Zumba](sport_name)
+    - I selected [2XU_Aero_Medium_Impact_Bra_Cranberry](bra_name) for [Gym](sport_name)
+    - [Abi_and_Joseph_Success_High_Support_Crop_Stellar](bra_name) selected for [Aerobic](sport_name)
+    - Selelcted bra is [2XU_Aero_Medium_Impact_Bra_Cranberry](bra_name) for [work out at home](sport_name)
+    - [jogging](sport_name)
+    - [2XU_Aero_Medium_Impact_Bra_Cranberry](bra_name)
+    - i selecte [2XU_Aero_Medium_Impact_Bra_Cranberry](bra_name)
+    - i selected [2XU_Aero_Medium_Impact_Bra_Cranberry](bra_name)
+    - [Abi_and_Joseph_Success_High_Support_Crop_Stellar](bra_name)
+    - [Abi_and_Joseph_Success_High_Support_Crop_Stellar](bra_name) bra was selecetd
+    - how [about](sport_name) [2XU_Aero_Medium_Impact_Bra_Cranberry](bra_name)
+    - hi, i have [2XU_Aero_Medium_Impact_Bra_Cranberry](bra_name). Could you please help me.
+    - hi, i have selected [Abi_and_Joseph_Success_High_Support_Crop_Stellar](bra_name). PLease help me to customize this bra
+    - hi, i have selected [Abi_and_Joseph_Success_High_Support_Crop_Stellar](bra_name).
+    - [Abi_and_Joseph_Success_High_Support_Crop_Stellar](bra_name)
+- intent: ask about the supported sport
+  examples: |
+    - What are the sports you support?
+    - What are the sports you support to customize the sports bra?
+    - Please let me know the sports you support.
+    - List of sports you support please.
+    - what are the sports you supported?
+- intent: doing not supported sport
+  examples: |
+    - Oh..i am doing Running. I can not get your support. Bye!
+    - I am doing another sport. Bye!
+    - I am doing Netball. Bye!
+    - I am doing Basketball
+    - I am doing Gymnastik. Can you please help me?
+- intent: element selection by customer
+  examples: |
+    - I want to customize [bra cup](element)
+    - I would like to change the properties of [fastening](element)
+    - I need to customize [cup](element)
+    - I would like to customize [bottom band](element)
+    - i want to customize [bra cup]{"entity": "bra", "value": "BraCup"}
+    - bra [cup]{"entity": "element", "value": "BraCup"}
+- synonym: BraCup
+  examples: |
+    - bra cup
+    - Bra Cup
+    - cup
+- lookup: sport_name
+  examples: |
+    - Yoga
+    - Jogging
+    - Zumba
+    - Aerobic
+    - Work Out At Home
+    - Gym
+- lookup: bra_name
+  examples: |
+    - 2XU_Aero_Medium_Impact_Bra_Cranberry
+    - Abi_and_Joseph_Success_High_Support_Crop_Stellar

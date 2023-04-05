@@ -1,0 +1,41 @@
+version: "3.1"
+rules:
+#
+#- rule: Say sorry for the incopatible sport
+#  steps:
+#  - intent: doing not supported sport
+#  - action: utter_say_sorry
+##
+#- rule: Say 'I am a bot' anytime the user challenges
+#  steps:
+#  - intent: bot_challenge
+#  - action: utter_iamabot
+
+#- rule: Activate bra Form
+#  steps:
+#  - intent: customize_bra
+#  - action: simple_bra_form
+#  - active_loop: simple_bra_form
+#
+#- rule: Submit bra Form
+#  condition:
+#  - active_loop: simple_bra_form
+#  steps:
+#  - action: simple_bra_form
+#  - active_loop: null
+#  - slot_was_set:
+#    - requested_slot: null
+#  - action: utter_submit
+#  - action: utter_bra_slots
+#
+#- rule: Interruption in bra Form
+#  condition:
+#  # Condition that form is active.
+#  - active_loop: simple_bra_form
+#  steps:
+#  # This unhappy path handles the case of an intent `bot_challenge`.
+#  - intent: bot_challenge
+#  - action: utter_iamabot
+#  # Return to form after handling the `bot_challenge` intent
+#  - action: simple_bra_form
+#  - active_loop: simple_bra_form

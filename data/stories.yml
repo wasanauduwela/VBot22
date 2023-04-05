@@ -1,0 +1,240 @@
+version: "3.1"
+stories:
+
+
+- story: interactive_good_path_initiate
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: simple_bra_form
+  - active_loop: simple_bra_form
+  - slot_was_set:
+    - requested_slot: sport_name
+  - slot_was_set:
+    - sport_name: Yoga
+  - slot_was_set:
+    - requested_slot: bra_name
+  - slot_was_set:
+    - bra_name: 2XU_Aero_Medium_Impact_Bra_Cranberry
+  - active_loop: null
+  - action: utter_bra_slots
+  - action: utter_initiate_codesign
+  - intent: element selection by customer
+  - action: action_exisitng_bracup_features
+
+- story: interactive_good_path_initiate_ask supported sport and doing correct one
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask about the supported sport
+  - action: utter_sport_list
+  - action: simple_bra_form
+  - active_loop: simple_bra_form
+  - slot_was_set:
+    - requested_slot: sport_name
+  - slot_was_set:
+    - sport_name: Yoga
+  - slot_was_set:
+    - requested_slot: bra_name
+  - slot_was_set:
+    - bra_name: 2XU_Aero_Medium_Impact_Bra_Cranberry
+  - active_loop: null
+  - action: utter_bra_slots
+  - action: utter_initiate_codesign
+  - intent: element selection by customer
+  - action: action_exisitng_bracup_features
+
+- story: interactive_good_path_initiate_ask supported sport and not doing the selected sport
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask about the supported sport
+  - action: utter_sport_list
+  - active_loop: simple_bra_form
+  - slot_was_set:
+      - requested_slot: sport_name
+  - intent: doing not supported sport
+  - action: utter_say_sorry
+
+- story: interactive_good_path_initiate_with_product
+  steps:
+  - intent: inform
+  - action: simple_bra_form
+  - active_loop: simple_bra_form
+  - slot_was_set:
+    - requested_slot: sport_name
+  - active_loop: null
+  - action: utter_bra_slots
+  - action: utter_initiate_codesign
+  - intent: element selection by customer
+  - action: action_exisitng_bracup_features
+
+- story: interactive_good_path_initiate_with_sport
+  steps:
+  - intent: inform
+  - action: simple_bra_form
+  - active_loop: simple_bra_form
+  - slot_was_set:
+      - requested_slot: bra_name
+  - slot_was_set:
+      - bra_name: 2XU_Aero_Medium_Impact_Bra_Cranberry
+  - slot_was_set:
+      - requested_slot: sport_name
+  - slot_was_set:
+      - sport_name: Yoga
+  - active_loop: null
+  - action: utter_bra_slots
+  - action: utter_initiate_codesign
+  - intent: element selection by customer
+  - action: action_exisitng_bracup_features
+
+- story: User interrupts the form and doesn't want to continue
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: customize_bra
+  - action: simple_bra_form
+  - active_loop: simple_bra_form
+  - intent: stop
+  - action: utter_ask_continue
+  - or:
+    - intent: stop
+    - intent: affirm
+  - action: action_deactivate_loop
+  - active_loop: null
+
+- story: interactive_story_form doent want to continue
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: customize_bra
+  - action: simple_bra_form
+  - active_loop: simple_bra_form
+  - slot_was_set:
+    - requested_slot: sport_name
+  - intent: stop
+  - action: utter_ask_continue
+  - intent: stop
+  - action: action_deactivate_loop
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - intent: goodbye
+  - action: utter_goodbye
+
+
+
+
+- story: interactive_story_1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: customize_bra
+    entities:
+    - sport_name: yoga
+  - slot_was_set:
+    - sport_name: yoga
+  - action: simple_bra_form
+  - active_loop: simple_bra_form
+  - slot_was_set:
+    - sport_name: yoga
+  - slot_was_set:
+    - sport_impact: 'Medium, Low, '
+  - slot_was_set:
+    - sport_name: yoga
+  - slot_was_set:
+    - sport_impact: 'Medium, Low, '
+  - slot_was_set:
+    - requested_slot: bra_name
+  - slot_was_set:
+    - bra_name: Abi_and_Joseph_Success_High_Support_Crop_Stellar
+  - slot_was_set:
+    - bra_name: Abi_and_Joseph_Success_High_Support_Crop_Stellar
+  - slot_was_set:
+    - bra_impact: Medium
+  - slot_was_set:
+    - requested_slot: null
+  - active_loop: null
+  - action: utter_bra_slots
+  - action: utter_initiate_codesign
+  - intent: element selection by customer
+    entities:
+    - bra: BraCup
+  - action: action_exisitng_bracup_features
+  - slot_was_set:
+    - element: null
+
+- story: interactive_story_1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: customize_bra
+    entities:
+    - sport_name: yoga
+  - slot_was_set:
+    - sport_name: yoga
+  - action: simple_bra_form
+  - active_loop: simple_bra_form
+  - slot_was_set:
+    - sport_name: yoga
+  - slot_was_set:
+    - sport_impact: 'Medium, Low, '
+  - slot_was_set:
+    - sport_name: yoga
+  - slot_was_set:
+    - sport_impact: 'Medium, Low, '
+  - slot_was_set:
+    - requested_slot: bra_name
+  - slot_was_set:
+    - bra_name: Abi_and_Joseph_Success_High_Support_Crop_Stellar
+  - slot_was_set:
+    - bra_name: Abi_and_Joseph_Success_High_Support_Crop_Stellar
+  - slot_was_set:
+    - bra_impact: Medium
+  - slot_was_set:
+    - requested_slot: null
+  - active_loop: null
+  - action: utter_bra_slots
+  - action: utter_initiate_codesign
+  - intent: element selection by customer
+    entities:
+    - bra: BraCup
+
+- story: interactive_story_1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: customize_bra
+    entities:
+    - sport_name: yoga
+  - slot_was_set:
+    - sport_name: yoga
+  - action: simple_bra_form
+  - active_loop: simple_bra_form
+  - slot_was_set:
+    - sport_name: yoga
+  - slot_was_set:
+    - sport_impact: 'Medium, Low, '
+  - slot_was_set:
+    - sport_name: yoga
+  - slot_was_set:
+    - sport_impact: 'Medium, Low, '
+  - slot_was_set:
+    - requested_slot: bra_name
+  - slot_was_set:
+    - bra_name: Abi_and_Joseph_Success_High_Support_Crop_Stellar
+  - slot_was_set:
+    - bra_name: Abi_and_Joseph_Success_High_Support_Crop_Stellar
+  - slot_was_set:
+    - bra_impact: Medium
+  - slot_was_set:
+    - requested_slot: null
+  - active_loop: null
+  - action: utter_bra_slots
+  - action: utter_initiate_codesign
+  - intent: element selection by customer
+    entities:
+    - element: BraCup
+  - action: action_exisitng_bracup_features
+  - slot_was_set:
+    - element: BraCup

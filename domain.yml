@@ -1,0 +1,104 @@
+version: '3.1'
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- affirm
+- ask about the supported sport
+- bot_challenge
+- customize_bra
+- deny
+- doing not supported sport
+- element selection by customer
+- goodbye
+- greet
+- greet with product
+- inform
+- request_bra_form
+- stop
+entities:
+- sport_name
+- bra_name
+- element
+- bra
+- bra_impact
+- sport_impact
+- bra_cup
+- fastening
+slots:
+  sport_name:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: sport_name
+  bra_name:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: bra_name
+  bra_impact:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: custom
+      entity: bra_impact
+  element:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: custom
+      entity: element
+  sport_impact:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: custom
+      entity: sport_impact
+  bra_cup:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: bra_cup
+  fastening:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: fastening
+forms:
+  simple_bra_form:
+    required_slots:
+    - sport_name
+    - bra_name
+responses:
+  utter_greet:
+  - text: Hey! I am a virtual assistant to guide you in selecting and customizing the chosen bra.  Could you please let us know your "sport activity" to guide you properly.
+  utter_goodbye:
+  - text: Bye
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+  utter_bra_slots:
+  - text: The selected bra {bra_name} is good for {sport_name}. Let start customize the bra. You can customize "Bra Cup, Fastening, Bottom Band, Wing, Strap, Back Style, Neckline, and Fabric elements of the selected bra. What changes do you want to make to the each elements of selected bra?
+  utter_ask_continue:
+  - text: Are you sure you want to stop the form?
+  utter_initiate_codesign:
+  - text: What changes do you want to make to the each elements of selected bra?
+  utter_sport_list:
+  - text: I am support to customize the sports bra for the sports, such as "Yoga, Zumba, Aerobic, Gym, Jogging, and Work out at home".
+  utter_say_sorry:
+  - text: Sorry! I am only trained to customize the bra for the above specific sports. Bye!
+actions:
+- action_exisitng_bracup_features
+- action_request_sport
+- utter_ask_continue
+- utter_bra_slots
+- utter_goodbye
+- utter_greet
+- utter_initiate_codesign
+- utter_say_sorry
+- utter_sport_list
+- utter_submit
+- validate_simple_bra_form

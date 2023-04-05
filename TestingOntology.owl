@@ -1,0 +1,2137 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#"
+     xml:base="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#backShapeSupportCustomerRequirements -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#backShapeSupportCustomerRequirements">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#elementSupportCustomerRequirements"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BackShape"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CustomerRequirements"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#braCupSuitFor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#braCupSuitFor">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#suitFor"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BraCup"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ImpactLevel"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#braCupTypeSupportCustomerRequirements -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#braCupTypeSupportCustomerRequirements">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#elementSupportCustomerRequirements"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BraCupTypes"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CustomerRequirements"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#braCupUseFabric -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#braCupUseFabric">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#useFabric"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BraCup"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Fabric"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#braUseFabric -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#braUseFabric">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#useFabric"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Bra"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Fabric"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#elementSupportCustomerRequirements -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#elementSupportCustomerRequirements">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasBackShape -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasBackShape">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasElementAttributes"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BackStyle"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BackShape"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasBackStyle -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasBackStyle">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasCompulsaryElements"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Bra"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BackStyle"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasBottomBand -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasBottomBand">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasCompulsaryElements"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Bra"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BottomBand"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasBottomBandMaterial -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasBottomBandMaterial">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasElementAttributes"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BottomBand"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BottomBandMaterial"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasBraCup -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasBraCup">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasCompulsaryElements"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Bra"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BraCup"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasBraCupConstruction -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasBraCupConstruction">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasElementAttributes"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BraCup"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BraCupConstruction"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasBraCupType -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasBraCupType">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasElementAttributes"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BraCup"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BraCupTypes"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasCenterPart -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasCenterPart">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasOptionalElements"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Bra"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CenterPart"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasCenterPartConstruction -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasCenterPartConstruction">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasElementAttributes"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CenterPart"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CenterPartConstruction"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasCoElement -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasCoElement">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasCoElementAttribute -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasCoElementAttribute">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasCompulsaryElements -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasCompulsaryElements">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasElement"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasElement -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasElement">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasElementAttributes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasElementAttributes">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasFastening -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasFastening">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasOptionalElements"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Bra"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Fastening"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasFasteningType -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasFasteningType">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasElementAttributes"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Fastening"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#FasteningTypes"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasFateningPosition -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasFateningPosition">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasElementAttributes"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Fastening"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#FasteningPosition"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasImpactLevel -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasImpactLevel">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Bra"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ImpactLevel"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasMaterialProperties -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasMaterialProperties">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Material"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#MaterialProperties"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasNeckDrop -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasNeckDrop">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasElementAttributes"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Neckline"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#NeckDrop"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasOptionalElements -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasOptionalElements">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasElement"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasPaddedColor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasPaddedColor">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasCoElementAttribute"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasShoulderStrapAdjusterPosition -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasShoulderStrapAdjusterPosition">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasElementAttributes"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ShoulderStrap"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ShoulderStrapAdjuaterPosition"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasShoulderStrapAdjusterType -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasShoulderStrapAdjusterType">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasElementAttributes"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ShoulderStrap"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ShoulderStrapAdjusterType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasShoulderStraps -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasShoulderStraps">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasCompulsaryElements"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Bra"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ShoulderStrap"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasSling -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasSling">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasOptionalElements"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Bra"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Sling"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasSlingPosition -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasSlingPosition">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasElementAttributes"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Sling"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#SlingPosition"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasTwoPartStrapDecorationPosition -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasTwoPartStrapDecorationPosition">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasElementAttributes"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#TwoPartShoulderStrap"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#TwoPartStrapDecorationPosition"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasTwoPartStrapPaddingPosition -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasTwoPartStrapPaddingPosition">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasElementAttributes"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#TwoPartShoulderStrap"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#TwoPartStrapPaddingPosition"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#isAPaddedCup -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#isAPaddedCup">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasCoElement"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BraCup"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#FoamCup"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#isAWiredCup -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#isAWiredCup">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasCoElement"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BraCup"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Wired"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#requiredImpactLevel -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#requiredImpactLevel">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Sports"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ImpactLevel"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#slingSupportCustomerRequriements -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#slingSupportCustomerRequriements">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#elementSupportCustomerRequirements"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Sling"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CustomerRequirements"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#strapAdjusterSupportCustomerRequirements -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#strapAdjusterSupportCustomerRequirements">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#elementSupportCustomerRequirements"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ShoulderStrapAdjusterType"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CustomerRequirements"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#suitFor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#suitFor">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#useFabric -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#useFabric">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#useMaterial -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#useMaterial">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Fabric"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Material"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#bottomBandWidth -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#bottomBandWidth">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BottomBand"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#elastaneComposition -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#elastaneComposition">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#nylonComposition -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#nylonComposition">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#polymideComposition -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#polymideComposition">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BackShape -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BackShape">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ElementAttributes"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#backShapeSupportCustomerRequirements"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CustomerRequirements"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BackStyle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BackStyle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CompulsaryElements"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasBackShape"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BackShape"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BooBand -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BooBand">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#OptionalElements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BottomBand -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BottomBand">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CompulsaryElements"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasBottomBandMaterial"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BottomBandMaterial"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#bottomBandWidth"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BottomBandMaterial -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BottomBandMaterial">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ElementAttributes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Bra -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Bra">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#braUseFabric"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Fabric"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasBackStyle"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BackStyle"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasBottomBand"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BottomBand"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasBraCup"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BraCup"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasCenterPart"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CenterPart"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasImpactLevel"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ImpactLevel"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasShoulderStraps"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ShoulderStrap"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasSling"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Sling"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BraCup -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BraCup">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CompulsaryElements"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#braCupSuitFor"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ImpactLevel"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#braCupUseFabric"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Fabric"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasBraCupConstruction"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BraCupConstruction"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasBraCupType"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BraCupTypes"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#isAPaddedCup"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#FoamCup"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#isAWiredCup"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Wired"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BraCupConstruction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BraCupConstruction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ElementAttributes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BraCupTypes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BraCupTypes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ElementAttributes"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#braCupTypeSupportCustomerRequirements"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CustomerRequirements"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CenterPart -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CenterPart">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#OptionalElements"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasCenterPartConstruction"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CenterPartConstruction"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CenterPartConstruction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CenterPartConstruction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ElementAttributes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CoElement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CoElement"/>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CoElementAttributes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CoElementAttributes"/>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CompulsaryElements -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CompulsaryElements">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Elements"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#OptionalElements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Cradle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Cradle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CompulsaryElements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CustomerRequirements -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CustomerRequirements"/>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ElementAttributes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ElementAttributes"/>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Elements -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Elements"/>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Fabric -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Fabric">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#useMaterial"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Material"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Fastening -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Fastening">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#OptionalElements"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasFasteningType"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#FasteningTypes"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasFateningPosition"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#FasteningPosition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#FasteningPosition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#FasteningPosition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ElementAttributes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#FasteningTypes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#FasteningTypes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ElementAttributes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#FoamCup -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#FoamCup">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CoElement"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Wired"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#FullShoulderStrap -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#FullShoulderStrap">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ShoulderStrap"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#TwoPartShoulderStrap"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ImpactLevel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ImpactLevel">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#High"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Low"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Medium"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#High"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Low"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Medium"/>
+                </owl:oneOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Material -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Material">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasMaterialProperties"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#MaterialProperties"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#MaterialProperties -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#MaterialProperties"/>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#NeckDrop -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#NeckDrop">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ElementAttributes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Neckline -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Neckline">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CompulsaryElements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#OptionalElements -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#OptionalElements">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Elements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#PaddedColor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#PaddedColor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CoElementAttributes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ShoulderStrap -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ShoulderStrap">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CompulsaryElements"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasShoulderStrapAdjusterPosition"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ShoulderStrapAdjuaterPosition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasShoulderStrapAdjusterType"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ShoulderStrapAdjusterType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ShoulderStrapAdjuaterPosition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ShoulderStrapAdjuaterPosition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ElementAttributes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ShoulderStrapAdjusterType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ShoulderStrapAdjusterType">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ElementAttributes"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#strapAdjusterSupportCustomerRequirements"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CustomerRequirements"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Sling -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Sling">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#OptionalElements"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasSlingPosition"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#SlingPosition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#slingSupportCustomerRequriements"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CustomerRequirements"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#SlingPosition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#SlingPosition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ElementAttributes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Sports -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Sports">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#requiredImpactLevel"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ImpactLevel"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#TwoPartShoulderStrap -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#TwoPartShoulderStrap">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ShoulderStrap"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasTwoPartStrapDecorationPosition"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#TwoPartStrapDecorationPosition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasTwoPartStrapPaddingPosition"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#TwoPartStrapPaddingPosition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#TwoPartStrapDecorationPosition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#TwoPartStrapDecorationPosition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ElementAttributes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#TwoPartStrapPaddingPosition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#TwoPartStrapPaddingPosition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ElementAttributes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#U_Shape -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#U_Shape">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BackShape"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#X_Shape"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Wing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Wing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CompulsaryElements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Wired -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Wired">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CoElement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#X_Shape -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#X_Shape">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BackShape"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Abi_and_Joseph_Success_High_Support_Crop_Stellar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Abi_and_Joseph_Success_High_Support_Crop_Stellar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Bra"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#braUseFabric"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Fabric"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasBackStyle"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BackStyle"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasBraCup"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BraCup"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasCenterPart"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CenterPart"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasFastening"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Fastening"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasImpactLevel"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ImpactLevel"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasShoulderStraps"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ShoulderStrap"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasSling"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Sling"/>
+            </owl:Restriction>
+        </rdf:type>
+        <hasBackStyle rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BackStyle_2"/>
+        <hasBraCup rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BraCup_2"/>
+        <hasCenterPart rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CenterPart_2"/>
+        <hasFastening rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Fastening_2"/>
+        <hasImpactLevel rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Medium"/>
+        <hasShoulderStraps rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#FullShoulderStrap_1"/>
+        <useFabric rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Fabric_2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Aerobic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Aerobic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Sports"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#requiredImpactLevel"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ImpactLevel"/>
+            </owl:Restriction>
+        </rdf:type>
+        <requiredImpactLevel rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#High"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Back -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Back">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#FasteningPosition"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BackStyle_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BackStyle_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BackStyle"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BackStyle_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BackStyle_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BackStyle"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Back_Side -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Back_Side">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ShoulderStrapAdjuaterPosition"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Back_part_of_strap -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Back_part_of_strap">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#TwoPartStrapDecorationPosition"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Back_strap -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Back_strap">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#TwoPartStrapPaddingPosition"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Both_part_of_strap -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Both_part_of_strap">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#TwoPartStrapDecorationPosition"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Bottom -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Bottom">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#SlingPosition"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BottomBand_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BottomBand_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BottomBand"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasBottomBandMaterial"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BottomBandMaterial"/>
+            </owl:Restriction>
+        </rdf:type>
+        <hasBottomBandMaterial rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Rubber"/>
+        <bottomBandWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</bottomBandWidth>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BottomBand_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BottomBand_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BottomBand"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasBottomBandMaterial"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BottomBandMaterial"/>
+            </owl:Restriction>
+        </rdf:type>
+        <hasBottomBandMaterial rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Elastic"/>
+        <bottomBandWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#int">15</bottomBandWidth>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BraCup_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BraCup_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BraCup"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#braCupSuitFor"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ImpactLevel"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#braCupUseFabric"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Fabric"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasBraCupConstruction"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BraCupConstruction"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasBraCupType"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BraCupTypes"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#isAPaddedCup"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#FoamCup"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#isAWiredCup"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Wired"/>
+            </owl:Restriction>
+        </rdf:type>
+        <braCupUseFabric rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#PowerMesh"/>
+        <hasBraCupConstruction rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CutAndSaw"/>
+        <hasBraCupType rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#FullCup"/>
+        <isAPaddedCup rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#RemovablePads"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BraCup_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BraCup_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BraCup"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#braCupSuitFor"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ImpactLevel"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasBraCupConstruction"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BraCupConstruction"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasBraCupType"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BraCupTypes"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#isAPaddedCup"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#FoamCup"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#isAWiredCup"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Wired"/>
+            </owl:Restriction>
+        </rdf:type>
+        <hasBraCupConstruction rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Molded"/>
+        <hasBraCupType rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#HalfCup"/>
+        <isAWiredCup rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Metal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CenterPart_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CenterPart_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CenterPart"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasCenterPartConstruction"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CenterPartConstruction"/>
+            </owl:Restriction>
+        </rdf:type>
+        <hasCenterPartConstruction rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#WithLining"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CenterPart_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CenterPart_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CenterPart"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasCenterPartConstruction"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CenterPartConstruction"/>
+            </owl:Restriction>
+        </rdf:type>
+        <hasCenterPartConstruction rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#WithStabilizer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CrissCross -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CrissCross">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#X_Shape"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CutAndSaw -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CutAndSaw">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BraCupConstruction"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#DeepNeckline -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#DeepNeckline">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Neckline"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Elastane -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Elastane">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Material"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Elastic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Elastic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BottomBandMaterial"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Fabric_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Fabric_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Fabric"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#useMaterial"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Material"/>
+            </owl:Restriction>
+        </rdf:type>
+        <useMaterial rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Elastane"/>
+        <useMaterial rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Nylone"/>
+        <useMaterial rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Polymide"/>
+        <elastaneComposition rdf:datatype="http://www.w3.org/2001/XMLSchema#int">50</elastaneComposition>
+        <nylonComposition rdf:datatype="http://www.w3.org/2001/XMLSchema#int">25</nylonComposition>
+        <polymideComposition rdf:datatype="http://www.w3.org/2001/XMLSchema#int">50</polymideComposition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Fabric_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Fabric_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Fabric"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#useMaterial"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Material"/>
+            </owl:Restriction>
+        </rdf:type>
+        <useMaterial rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Elastane"/>
+        <useMaterial rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Nylone"/>
+        <useMaterial rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Polymide"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Fastening_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Fastening_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Fastening"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasFasteningType"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#FasteningTypes"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasFateningPosition"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#FasteningPosition"/>
+            </owl:Restriction>
+        </rdf:type>
+        <hasFasteningType rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Hook_And_Eye"/>
+        <hasFateningPosition rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Back"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Fastening_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Fastening_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Fastening"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Front -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Front">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#FasteningPosition"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Front_Side -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Front_Side">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ShoulderStrapAdjuaterPosition"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Front_part_of_strap -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Front_part_of_strap">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#TwoPartStrapDecorationPosition"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Front_strap -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Front_strap">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#TwoPartStrapPaddingPosition"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#FullCup -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#FullCup">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BraCupTypes"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#braCupTypeSupportCustomerRequirements"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CustomerRequirements"/>
+            </owl:Restriction>
+        </rdf:type>
+        <braCupTypeSupportCustomerRequirements rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ProvideGoodSupport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#FullShoulderStrap_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#FullShoulderStrap_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#FullShoulderStrap"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Gym -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Gym">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Sports"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#requiredImpactLevel"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ImpactLevel"/>
+            </owl:Restriction>
+        </rdf:type>
+        <requiredImpactLevel rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#High"/>
+        <requiredImpactLevel rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Medium"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#HalfCup -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#HalfCup">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BraCupTypes"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#braCupTypeSupportCustomerRequirements"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CustomerRequirements"/>
+            </owl:Restriction>
+        </rdf:type>
+        <braCupTypeSupportCustomerRequirements rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#NoGoodSupport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#High -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#High">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ImpactLevel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#HighNeckline -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#HighNeckline">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Neckline"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Hook_And_Eye -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Hook_And_Eye">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#FasteningTypes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ImproveComfortability -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ImproveComfortability">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CustomerRequirements"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Jogging -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Jogging">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Sports"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#requiredImpactLevel"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ImpactLevel"/>
+            </owl:Restriction>
+        </rdf:type>
+        <requiredImpactLevel rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Medium"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Low -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Low">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ImpactLevel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Medium -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Medium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ImpactLevel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Metal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Metal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Wired"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Minimizer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Minimizer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BraCupTypes"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#braCupTypeSupportCustomerRequirements"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CustomerRequirements"/>
+            </owl:Restriction>
+        </rdf:type>
+        <braCupTypeSupportCustomerRequirements rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ReduceComfortability"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#MoistureManagement -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#MoistureManagement">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CustomerRequirements"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Molded -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Molded">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BraCupConstruction"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#NoGoodSupport -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#NoGoodSupport">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CustomerRequirements"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#No_decoration -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#No_decoration">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#TwoPartStrapDecorationPosition"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#NonRemovablePads -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#NonRemovablePads">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#FoamCup"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#NormalNeckline -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#NormalNeckline">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Neckline"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Nylone -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Nylone">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Material"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#PerfectFit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#PerfectFit">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CustomerRequirements"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Plastic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Plastic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Wired"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Polymide -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Polymide">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Material"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#PowerMesh -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#PowerMesh">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Fabric"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ProvideGoodSupport -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ProvideGoodSupport">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CustomerRequirements"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#RacerBack -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#RacerBack">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#X_Shape"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#backShapeSupportCustomerRequirements"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CustomerRequirements"/>
+            </owl:Restriction>
+        </rdf:type>
+        <backShapeSupportCustomerRequirements rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ProvideGoodSupport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ReduceComfortability -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ReduceComfortability">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CustomerRequirements"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#RemovablePads -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#RemovablePads">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#FoamCup"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Ring_Strap_Adjuster -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Ring_Strap_Adjuster">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ShoulderStrapAdjusterType"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#strapAdjusterSupportCustomerRequirements"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CustomerRequirements"/>
+            </owl:Restriction>
+        </rdf:type>
+        <strapAdjusterSupportCustomerRequirements rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#PerfectFit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Rubber -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Rubber">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BottomBandMaterial"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Side -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Side">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#SlingPosition"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Sillicon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Sillicon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Wired"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Sling_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Sling_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Sling"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasSlingPosition"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#SlingPosition"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#slingSupportCustomerRequriements"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CustomerRequirements"/>
+            </owl:Restriction>
+        </rdf:type>
+        <hasElementAttributes rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Side"/>
+        <hasSlingPosition rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Side"/>
+        <slingSupportCustomerRequriements rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ProvideGoodSupport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Sling_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Sling_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Sling"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasSlingPosition"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#SlingPosition"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#slingSupportCustomerRequriements"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CustomerRequirements"/>
+            </owl:Restriction>
+        </rdf:type>
+        <hasSlingPosition rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Bottom"/>
+        <slingSupportCustomerRequriements rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ProvideGoodSupport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#TwoPartShoulderStrap_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#TwoPartShoulderStrap_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#TwoPartShoulderStrap"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasShoulderStrapAdjusterPosition"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ShoulderStrapAdjuaterPosition"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasShoulderStrapAdjusterType"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ShoulderStrapAdjusterType"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasTwoPartStrapDecorationPosition"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#TwoPartStrapDecorationPosition"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasTwoPartStrapPaddingPosition"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#TwoPartStrapPaddingPosition"/>
+            </owl:Restriction>
+        </rdf:type>
+        <hasShoulderStrapAdjusterPosition rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Back_Side"/>
+        <hasShoulderStrapAdjusterType rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Velco_Strap-Adjuster"/>
+        <hasTwoPartStrapDecorationPosition rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Front_part_of_strap"/>
+        <hasTwoPartStrapPaddingPosition rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Front_strap"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#TwoPartShoulderStrap_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#TwoPartShoulderStrap_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#TwoPartShoulderStrap"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasTwoPartStrapDecorationPosition"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#TwoPartStrapDecorationPosition"/>
+            </owl:Restriction>
+        </rdf:type>
+        <hasTwoPartStrapDecorationPosition rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Front_part_of_strap"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#U_Shape -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#U_Shape">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#U_Shape"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Velco -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Velco">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#FasteningTypes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Velco_Strap-Adjuster -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Velco_Strap-Adjuster">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ShoulderStrapAdjusterType"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#strapAdjusterSupportCustomerRequirements"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CustomerRequirements"/>
+            </owl:Restriction>
+        </rdf:type>
+        <strapAdjusterSupportCustomerRequirements rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#PerfectFit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#WithLining -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#WithLining">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CenterPartConstruction"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#WithStabilizer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#WithStabilizer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CenterPartConstruction"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#WithoutPads -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#WithoutPads">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#FoamCup"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#WorkoutAtHome -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#WorkoutAtHome">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Sports"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Y_Shape -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Y_Shape">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#X_Shape"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Yoga -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Yoga">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Sports"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#requiredImpactLevel"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ImpactLevel"/>
+            </owl:Restriction>
+        </rdf:type>
+        <requiredImpactLevel rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Low"/>
+        <requiredImpactLevel rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Medium"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Ziper_Saw -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Ziper_Saw">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#FasteningTypes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Zipper_Bonded -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Zipper_Bonded">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#FasteningTypes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Zumba -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Zumba">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Sports"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#requiredImpactLevel"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ImpactLevel"/>
+            </owl:Restriction>
+        </rdf:type>
+        <requiredImpactLevel rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#High"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#2XU_Aero_Medium_Impact_Bra_Cranberry -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#2XU_Aero_Medium_Impact_Bra_Cranberry">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Bra"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#braUseFabric"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Fabric"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasBackStyle"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BackStyle"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasBraCup"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BraCup"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasCenterPart"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CenterPart"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasFastening"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Fastening"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasImpactLevel"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ImpactLevel"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasShoulderStraps"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ShoulderStrap"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#hasSling"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Sling"/>
+            </owl:Restriction>
+        </rdf:type>
+        <hasBackStyle rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BackStyle_1"/>
+        <hasBraCup rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BraCup_1"/>
+        <hasCenterPart rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CenterPart_1"/>
+        <hasFastening rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Fastening_1"/>
+        <hasImpactLevel rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#High"/>
+        <hasShoulderStraps rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#TwoPartShoulderStrap_1"/>
+        <hasSling rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Sling_1"/>
+        <useFabric rdf:resource="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Fabric_1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BackShape"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BottomBandMaterial"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BraCupConstruction"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BraCupTypes"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CenterPartConstruction"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#FasteningPosition"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#FasteningTypes"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#NeckDrop"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ShoulderStrapAdjuaterPosition"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ShoulderStrapAdjusterType"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#SlingPosition"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#TwoPartStrapDecorationPosition"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#TwoPartStrapPaddingPosition"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BackStyle"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BottomBand"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BraCup"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Cradle"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Neckline"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ShoulderStrap"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Wing"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#BooBand"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CenterPart"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Fastening"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Sling"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Bra"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CoElement"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CoElementAttributes"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#CustomerRequirements"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ElementAttributes"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Elements"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Fabric"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#ImpactLevel"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Material"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#MaterialProperties"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wasanauduwela/ontologies/2022/11/TestingOntology#Sports"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
